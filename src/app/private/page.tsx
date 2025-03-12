@@ -1,8 +1,7 @@
 import { redirect } from "next/navigation";
 import { createClient } from "@/utils/supabase/server";
-import SignOutButton from "./components/SignOutButton";
 
-export default async function Home() {
+export default async function PrivatePage() {
     const supabase = await createClient();
 
     const { data, error } = await supabase.auth.getUser();
@@ -11,9 +10,8 @@ export default async function Home() {
     }
 
     return (
-        <section>
-            <h1>Welcome to the Landing Page, {data.user.email}!</h1>
-            <SignOutButton />
-        </section>
+        <div>
+            <p>Hello {data.user.email}</p>
+        </div>
     );
 }
