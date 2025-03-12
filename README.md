@@ -12,4 +12,4 @@ Hey! 👋 Welcome to **GrindHub** – my personal web app designed to keep me or
 - **Backend**: Supabase (Database & Authentication)
 
 ## Why GrindHub?
-I'm building this app because I need something **simple and functional** to track my job applications and personal progress. Plus, it’s a **great project** to showcase my skills and hopefully land my next dev role. 👨‍💻
+I'm building this app because I need something **simple and functional** to track my job applications and personal progress. Plus, it’s a **great project** to showcase my skills. 👨‍💻
